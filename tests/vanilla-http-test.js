@@ -12,7 +12,7 @@ describe('/coder', () => {
         request.get('/coder')
             .end((err, res) => {
                 if (err) done(err);
-                assert.equal(res.text, {
+                assert.deepEqual(JSON.parse(res.text), {
                     'name': 'sevfitz',
                     'since': '2-2-17'
                 });
