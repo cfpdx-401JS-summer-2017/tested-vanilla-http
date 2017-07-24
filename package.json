@@ -1,0 +1,26 @@
+{
+  "name": "tested-vanilla-http",
+  "version": "1.0.0",
+  "description": "Write a tested vanilla node http server:",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha tests",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merylturner/tested-vanilla-http.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merylturner/tested-vanilla-http/issues"
+  },
+  "homepage": "https://github.com/merylturner/tested-vanilla-http#readme",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^4.3.0",
+    "mocha": "^3.4.2"
+  }
+}
