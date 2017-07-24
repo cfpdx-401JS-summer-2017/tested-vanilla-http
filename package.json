@@ -1,0 +1,30 @@
+{
+  "name": "tested-vanilla-http",
+  "version": "1.0.0",
+  "description": "Write a tested vanilla node http server:",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMPotter/tested-vanilla-http.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMPotter/tested-vanilla-http/issues"
+  },
+  "homepage": "https://github.com/AMPotter/tested-vanilla-http#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.4.2",
+    "mongodb": "^2.2.30"
+  }
+}
